@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+/* font-family: 'Questrial', sans-serif; */
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    top: 80px;
+    background: #240046 url("../images/wallpaper.jpg") no-repeat center center/cover;
+    color: #CED4DA;
+    font-family: 'Questrial', sans-serif;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* heading properties */
+h2 {
+    width: 600px;
+    background-color: rgba(53,40,71, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 10px;
+    color: rgba(53,40,71, 0.8);
+    background-color: rgba(255,255,255, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.msg {
+    width: 300px;
+    height: auto;
+    margin-top: 10px;
+    background-color: rgba(53,40,71, 0.8) !important;
+    color: rgba(255,255,255, 0.3);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.msg .youSaid {
+    color: #CED4DA;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.msg .box {
+    color: #CED4DA;
+    font-size: 25px;
+    font-weight: 800;
+    display: block;
+    text-align: center;
+}
+
+.msg .furtherIns {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 30px;
+}
+
+@media(max-width: 800px) {
+        
+    body{
+        position: relative;
+        top: 120px;
+    }
+
+    h2 {
+        width: auto;
+        font-size: 25px;
+        padding: 10px;
+        border-radius: 5px;
+        margin-top: 15px;
+    }
+}
+
+.play-again {
+    background-color: rgba(53,40,71, 0.6);
+    color: #CED4DA;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 8px;
+    border-radius: 3px;
+}
